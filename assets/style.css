@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+
+main{
+    height: 80%;
+}
+
+.titulo{
+    background-color: rgb(36, 53, 131);
+    padding:20px;
+    height: max-content;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4em;
+}
+
+.titulo h1 a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.titulo h1 a:hover{
+    text-shadow: rgb(214, 236, 255) 0px 0px 10px;
+    color:rgb(214, 236, 255);
+}
+
+.container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%; 
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton{
+    text-decoration: none; 
+    font-size: 1.1em;
+    padding: 13px;
+    border-radius: 5px;
+    transition: 0.4s;
+    border: none;
+}
+
+.good{
+    background-color: rgb(56, 190, 74);
+    color: rgb(19, 85, 30);
+}
+
+.good:hover{
+    background-color: rgb(50, 163, 65);
+}
+
+.danger{
+    color:rgb(87, 16, 16);
+    background-color: rgb(248, 44, 44);
+}
+
+.danger:hover{
+    background-color: rgb(173, 34, 34);
+}
+
+.normal{    
+    border: none;
+    color: rgb(11, 24, 78);
+    background-color:rgb(67, 113, 212);
+}
+
+.normal:hover{
+    background-color:rgb(44, 73, 136);
+}
+
+.medium{    
+    color: rgb(80, 53, 4);
+    background-color:rgb(230, 144, 64);
+}
+
+.medium:hover{
+    background-color:rgb(160, 100, 44);
+}
+
+form{ 
+    width: 20%;
+    flex-direction: column;
+    display: flex;
+}
+
+.container2 form{
+    width: 100%;
+}
+
+form input[type=text]{
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(211, 211, 211);
+    margin: 6px 0;
+    font-size: 1.1em;
+    padding: 7px;
+}
+
+
+.alert{
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    color:rgb(87, 16, 16);
+    background-color: rgba(248, 44, 44, 0.753);
+}
+.resultado{
+    font-size: 1.1em;
+}
+
+.resultado strong{
+    color:rgb(36, 53, 131)
+}
+
+.cont-table{
+    width: 90%;
+    margin: 30px;
+    height: max-content;
+}
+
+.cont-table form{
+    width: 100%;
+}
+
+.tabla{
+    text-align: justify;
+    width: 100%;
+}
+    
+.tabla th{
+    height: 50px;
+    margin-bottom: 0;
+    color:rgb(36, 53, 131)
+
+}
+ 
+.tabla td{
+    padding: 0;
+    height: 60px;
+    
+}
